@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id=".Ld$hbwq/(a8225J;@!l">Player</variable><variable type="KIND_SpriteKind" id="E{iv1ZV(#~ri]4h85)Jt">Projectile</variable><variable type="KIND_SpriteKind" id="-G42c_1+D}8/)~EC,i+h">Food</variable><variable type="KIND_SpriteKind" id="NL0FmE^dIxzo@Jb5wK6F">Enemy</variable><variable id="FlGC~RJKrmxskq6Af-ni">list</variable><variable id="73$~;!0~jQ/@4*0LY{OQ">target</variable><variable id="jteDyuQoZrvMqc141V$q">mySprite</variable></variables><block type="pxt-on-start" id="^ixA}~`nDOu)$9^1-a4b" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="|BL[Sa#hLY6^{kXlI.x+"><value name="color"><shadow type="colorindexpicker" id="t$GtT3*LUc;`:g7np$j-"><field name="index">9</field></shadow></value><next><block type="variables_set" id=")h0ZL4F;ISR8f-5*E5d["><field name="VAR" id="FlGC~RJKrmxskq6Af-ni">list</field><value name="VALUE"><block type="lists_create_with" id="MqQF98(Js-~ep._,RT(X" inline="false"><mutation items="7" horizontalafter="3"></mutation><value name="ADD0"><shadow type="math_number" id="7v0T!rGbmrWrXt,DJ.cs"><field name="NUM">21</field></shadow></value><value name="ADD1"><shadow type="math_number" id="00dU}bwtiD0.~,uMtOK1"><field name="NUM">57</field></shadow></value><value name="ADD2"><shadow type="math_number" id="ld9*W7f}dCH5(,6rkgB?"><field name="NUM">74</field></shadow></value><value name="ADD3"><shadow type="math_number" id="`}w(YBnCW}YY}p55GoZk"><field name="NUM">99</field></shadow></value><value name="ADD4"><shadow type="math_number" id="?M7k$,A0F0F?G|x856=I"><field name="NUM">130</field></shadow></value><value name="ADD5"><shadow type="math_number" id="kWxE[nL_uVg6p[}a@A@P"><field name="NUM">189</field></shadow></value><value name="ADD6"><shadow type="math_number" id="F-O8UtqX6,De}U:H5vsg"><field name="NUM">267</field></shadow></value></block></value><next><block type="variables_set" id="@H2*hw_^?,bq=#utx5fy"><field name="VAR" id="jteDyuQoZrvMqc141V$q">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="++KJ6b-=j$lHeEH-:alH"><value name="img"><shadow type="screen_image_picker" id="?~(B-^cbSc]@IR-!yhx9"><field name="img">img`
+...................cc...
+...............cccc63c..
+..............c633336c..
+..........cc.c6cc33333c.
+.........b55c6c55c33333c
+.........ff5c6c5ff33333c
+.........ff5c6c5ff6333cc
+.........b553c355c6666cc
+..........b55355c333333c
+.........cc55555bcc3333c
+........c5545554b55c33c.
+........b54b4444bb5cbb..
+........c455b4b5554c45b.
+........c555c4c555c4c5c.
+........c5555c5555c4c5c.
+.........ccccccccc..ccc.
+`</field><data>{"commentRefs":[],"fieldData":{"img":"?~(B-^cbSc]@IR-!yhx9"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="y#1):Q,Vmq3:(:4nE^z+"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="[9Ii~%2!+)84-oQB~a+Q"><field name="VAR" id="73$~;!0~jQ/@4*0LY{OQ">target</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="gameaskfornumber" id="]aw[H9USx_J)YW8B%(8G"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="message"><shadow type="text" id="|(^=)Tup@`%:1c^e$2w$"><field name="TEXT">What number?</field></shadow></value><value name="answerLength"><shadow type="math_number_minmax" id="=?7yp{;oFS(?*.,t*:QW"><mutation min="1" max="10" label="AnswerLength" precision="0"></mutation><field name="SLIDER">3</field></shadow></value></block></value></block></next></block></next></block></next></block></statement></block></xml>
